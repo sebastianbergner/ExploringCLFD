@@ -1,0 +1,9 @@
+tqdm>=4.64.1
+matplotlib>=3.7.0
+torch>=1.13.1
+torchdiffeq>=0.2.3
+pyquaternion>=0.9.9
+pandas>=1.5.3
+similaritymeasures>=0.7.0
+numba>=0.56.4
+seaborn>=0.12.2

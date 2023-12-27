@@ -1,0 +1,9 @@
+openbox.npy
+bottle2shelf.npy
+platestandingtolying.npy
+pouring.npy
+matfolding.npy
+obstaclerotate.npy
+pan2stove.npy
+scoop.npy
+table.npy

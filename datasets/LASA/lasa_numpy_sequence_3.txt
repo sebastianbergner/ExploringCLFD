@@ -1,0 +1,3 @@
+task_x0_y0.npz
+task_x1_y1.npz
+task_x2_y2.npz
