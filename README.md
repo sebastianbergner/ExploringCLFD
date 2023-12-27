@@ -3,7 +3,6 @@
 Recently, hypernetworks have been proposed to counter the catastrophic forgetting effect. Hypernetworks are neural networks that produce another neural network as its output, and it has been shown that they perform better than other methods for continual learning on standard image benchmark datasets, as well as on tasks in robotics. Robotics is an excellent test bed for continual learning algorithms, since a robot should be able to learn and remember new tasks throughout its lifetime without forgetting previously learned skills. However, the previous works with hypernetworks do not fully explore all aspects of hypernetworks which can be exploited to attain even better performance. The goal of this paper is to fill this gap and explore the effect of different factors on continually learning hypernetworks in a robotics scenario. These factors may include optimization algorithms, network initialization schemes, and different network architectures.
 
 ## Table of Contents
-- [Introduction](#Exploring Aspects in Continual Learning from Demonstration of Robotic Skills)
 - [Setup](#Setup)
 - [Usage](#Usage)
 - [Bibliobgraphy](#Bibliobgraphy)
