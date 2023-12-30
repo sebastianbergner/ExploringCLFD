@@ -1,6 +1,9 @@
 # Exploring Aspects in Continual Learning from Demonstration of Robotic Skills
 
-Recently, hypernetworks have been proposed to counter the catastrophic forgetting effect. Hypernetworks are neural networks that produce another neural network as its output, and it has been shown that they perform better than other methods for continual learning on standard image benchmark datasets, as well as on tasks in robotics. Robotics is an excellent test bed for continual learning algorithms, since a robot should be able to learn and remember new tasks throughout its lifetime without forgetting previously learned skills. However, the previous works with hypernetworks do not fully explore all aspects of hypernetworks which can be exploited to attain even better performance. The goal of this paper is to fill this gap and explore the effect of different factors on continually learning hypernetworks in a robotics scenario. These factors may include optimization algorithms, network initialization schemes, and different network architectures.
+In *continual learning from demonstration* (CLfD), a robot learns a sequence of real-world motion skills continually from human demonstrations. Recently, hypernetworks have been successful in solving this problem. In our current work, we perform an exploratory study of the effects of different optimizers, initializers, and network architectures on the continual learning performance of hypernetworks for CLfD. Our results show that adaptive learning rate optimizers work well, but initializers specially designed for hypernetworks offer no advantages for CLfD. We also show that hypernetworks that are capable of *stable* trajectory predictions are robust to different network architectures. We use the *RoboTasks9* real-world LfD benchmark (shown below) for evaluations.
+
+![all_tasks_rt9](https://github.com/sebastianbergner/ExploringCLFD/assets/10401716/fd074d1c-3ded-4021-b454-b19d18e94561)
+
 
 ## Table of Contents
 - [Setup](#Setup)
