@@ -1,6 +1,6 @@
-# Exploring Aspects in Continual Learning from Demonstration of Robotic Skills
+# Effect of Optimizer, Initializer, and Architecture of Hypernetworks on Continual Learning from Demonstration
 
-In *continual learning from demonstration* (CLfD), a robot learns a sequence of real-world motion skills continually from human demonstrations. Recently, hypernetworks have been successful in solving this problem. In our current work, we perform an exploratory study of the effects of different optimizers, initializers, and network architectures on the continual learning performance of hypernetworks for CLfD. Our results show that adaptive learning rate optimizers work well, but initializers specially designed for hypernetworks offer no advantages for CLfD. We also show that hypernetworks that are capable of *stable* trajectory predictions are robust to different network architectures. We use the *RoboTasks9* real-world LfD benchmark (shown below) for evaluations.
+In *continual learning from demonstration* (CLfD), a robot learns a sequence of real-world motion skills continually from human demonstrations. Recently, hypernetworks have been successful in solving this problem. In our current work, we perform an exploratory study of the effects of different optimizers, initializers, and network architectures on the continual learning performance of hypernetworks for CLfD. Our results show that adaptive learning rate optimizers work well, but initializers specially designed for hypernetworks offer no advantages for CLfD. We also show that hypernetworks that are capable of *stable* trajectory predictions are robust to different network architectures. We use the [*RoboTasks9*](https://arxiv.org/abs/2311.03600) real-world LfD benchmark (shown below) for evaluations.
 
 ![all_tasks_rt9](https://github.com/sebastianbergner/ExploringCLFD/assets/10401716/fd074d1c-3ded-4021-b454-b19d18e94561)
 
@@ -8,6 +8,7 @@ In *continual learning from demonstration* (CLfD), a robot learns a sequence of 
 ## Table of Contents
 - [Setup](#Setup)
 - [Usage](#Usage)
+- [Experiment Hyperparameters](#Hyperparameters)
 - [Bibliobgraphy](#Bibliobgraphy)
 
 ## Setup
@@ -83,6 +84,10 @@ The parameters explained are below.
 - description      Description comment of the run.
 - data_type        Data type np for RoboTasks9, mat for LASA.
 - tangent_vec_scale Scaling of tangent vectors for learning oritentation (default 5.0).
+
+## Hyperparameters
+
+![hn_explore_hparam](https://github.com/sebastianbergner/ExploringCLFD/assets/10401716/f6335e57-cb51-498e-96a1-4586701ac53e)
 
 
 ## Bibliobgraphy
